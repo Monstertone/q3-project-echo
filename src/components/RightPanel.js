@@ -7,7 +7,7 @@ class RightPanel extends Component {
     let SongList = this.props.songs
     .map(song => <Song key={song.id} song={song} addSongToPlayList={this.props.addSongToPlayList}/>)
     return (
-      <div className="lightgrey">
+      <div className="lightgrey songlistpadding">
          {SongList}
       </div>
     )

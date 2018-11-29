@@ -20,6 +20,7 @@ code {
 
 .col {
   background: #393939;
+
 }
 
 .bg-grey {
@@ -38,22 +39,9 @@ code {
   right:65%;
 }
 
-.left_main {
-  background: #393939;
-  display:inline;
-  margin-left: 100px;
-  border: 1px solid #ffffcc;
-  border-radius: 10px;
-  padding: 10px;
+.songlistpadding {
+  padding-right: 200px;
 
-
-}
-.right_main {
-  background: #393939;
-  display:inline;
-  margin-left: auto;
-  border: 1px solid #ffffcc;
-  border-radius: 10px;
 }
 
 .songBox {
@@ -130,6 +118,7 @@ code {
 .echobottom {
   background: #000;
   padding-top: 65px;
+  color: #a19f94;
 
 }
 
@@ -140,4 +129,7 @@ padding-bottom: 80px;
 background-color:#393939;
 
 
+}
+.row{
+  margin:0 !important;
 }

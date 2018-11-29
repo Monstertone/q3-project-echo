@@ -27,9 +27,6 @@ audio.src = playListUrls[0];
 
       <h5>&copy; 2018  Echo Music Streams</h5>
 
-    <button onClick={()=>audio.play()}>PLAY</button>
-
-    <audio controls />
 
    </nav>
   )

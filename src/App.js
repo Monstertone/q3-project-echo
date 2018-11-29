@@ -60,7 +60,7 @@ removeSongFromPlayList = id  => {
 
             <div className="row">
                 <div className="col"><LeftPanel playListUrls={this.playListUrls()} songsInPlayList={this.songsInPlayList()} removeSongFromPlayList={this.removeSongFromPlayList}/></div>
-                <div className="col"><RightPanel songs={this.state.songs} addSongToPlayList={this.addSongToPlayList}/></div>
+                <div className="col songlistpadding"><RightPanel songs={this.state.songs} addSongToPlayList={this.addSongToPlayList}/></div>
             </div>
         </div>
            <Footer playListUrls={this.playListUrls()}/>
