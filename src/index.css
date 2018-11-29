@@ -14,5 +14,74 @@ code {
     monospace;
 }
 .mainFont {
- color: #fff;
+ color: #000;
+}
+
+.bg-grey {
+  background: #393939;
+  height: 100vh;
+  min-height: 500px;
+}
+
+.jukeimg {
+  margin: auto;
+}
+
+.left_main {
+  background: #393939;
+  display:inline;
+  margin-left: 100px;
+  border: 1px solid #ffffcc;
+  border-radius: 10px;
+  padding: 10px;
+}
+.right_main {
+  background: #393939;
+  display:inline;
+  margin-left: auto;
+  border: 1px solid #ffffcc;
+  border-radius: 10px;
+}
+
+.songBox {
+  margin:auto;
+  width: 500px;
+  height: 150px;
+  background-color: #393939;
+  border: 2px solid #ffffcc;
+  border-radius: 5px;
+  margin:10px;
+  padding: 5px;
+  color: white;
+
+}
+.albumArt {
+  float:left;
+  width: 75px;
+  border: 1px solid black;
+}
+
+.lightgrey {
+  background-color: #393939;
+  margin-left: 0px;
+}
+.addplay {
+
+  background-color: #000;
+  color: #fff;
+  border-radius: 10px;
+  border: 1px solid #ffffcc;
+
+}
+
+.songplaylistbox {
+  margin:auto;
+  width: 500px;
+  height: 100px;
+  background-color: #393939;
+  border: 2px solid #ffffcc;
+  border-radius: 5px;
+  margin-top:5px;
+  padding: 5px;
+  color: white;
 }
