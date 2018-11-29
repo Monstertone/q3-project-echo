@@ -9,9 +9,9 @@ const Song = (props) => {
 
 
     <img src={props.song.cover_url} className="albumArt" />
-    <p>{props.song.title}</p>
-    <p>{props.song.artist}</p>
-      <p>{props.song.album}</p>
+    <p className="song-title">{props.song.title}</p>
+    <p className="song-artist"> Artist: {props.song.artist}  </p>
+      <p className="song-artist">Album: {props.song.album}</p><br />
       <button onClick={
   () => props.addSongToPlayList(props.song.id)
 } className="addplay">Add to Play List</button>

@@ -1,5 +1,5 @@
 body {
-  background-color: #585957;
+  background: #393939;
   margin: 0;
   padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -17,6 +17,10 @@ code {
  color: #000;
 }
 
+.col {
+  background: #393939;
+}
+
 .bg-grey {
   background: #393939;
   height: 100vh;
@@ -25,6 +29,7 @@ code {
 
 .jukeimg {
   margin: auto;
+  margin-bottom: 10px;
 }
 
 .left_main {
@@ -46,7 +51,7 @@ code {
 .songBox {
   margin:auto;
   width: 500px;
-  height: 150px;
+  height: 90px;
   background-color: #393939;
   border: 2px solid #ffffcc;
   border-radius: 5px;
@@ -64,6 +69,9 @@ code {
 .lightgrey {
   background-color: #393939;
   margin-left: 0px;
+  height:100vh;
+  padding-top: 65px;
+  padding-bottom: 65px;
 }
 .addplay {
 
@@ -71,17 +79,47 @@ code {
   color: #fff;
   border-radius: 10px;
   border: 1px solid #ffffcc;
+  font-size: .75em;
+}
 
+.orderedplay {
+
+  background-color: #000;
+  color: #fff;
+  border-radius: 10px;
+  border: 1px solid #ffffcc;
+  font-size: .75em;
+  margin: 10px;
+}
+
+.song-title {
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.song-artist {
+  font-size: .75em;
+  display: inline;
+  margin-top: 0px;
+
+}
+
+.offWhite {
+  color: #f3f1e8;
 }
 
 .songplaylistbox {
   margin:auto;
-  width: 500px;
-  height: 100px;
+  width: 270px;
+  height: 60px;
   background-color: #393939;
   border: 2px solid #ffffcc;
-  border-radius: 5px;
+  border-radius: 7px;
   margin-top:5px;
   padding: 5px;
   color: white;
+}
+
+.echobottom {
+  background: #000;
+
 }
