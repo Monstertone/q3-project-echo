@@ -54,17 +54,16 @@ removeSongFromPlayList = id  => {
 
     return (
 
-      <div className="App">
+      <div className="App app-style">
+          <div className="styleWrapper">
+            < Header />
 
-        < Header />
-
-        <div className="row">
-            <div className="col"><LeftPanel playListUrls={this.playListUrls()} songsInPlayList={this.songsInPlayList()} removeSongFromPlayList={this.removeSongFromPlayList}/></div>
-            <div className="col"><RightPanel songs={this.state.songs} addSongToPlayList={this.addSongToPlayList}/></div>
+            <div className="row">
+                <div className="col"><LeftPanel playListUrls={this.playListUrls()} songsInPlayList={this.songsInPlayList()} removeSongFromPlayList={this.removeSongFromPlayList}/></div>
+                <div className="col"><RightPanel songs={this.state.songs} addSongToPlayList={this.addSongToPlayList}/></div>
+            </div>
         </div>
-
-          <Footer playListUrls={this.playListUrls()}/>
-
+           <Footer playListUrls={this.playListUrls()}/>
       </div>
     );
   }
