@@ -49,7 +49,7 @@ removeSongFromPlayList = id  => {
 }
 
   render() {
-  console.log('Songs in Playlist',this.playListUrls())
+  
 
 
     return (
